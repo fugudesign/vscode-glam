@@ -1,12 +1,12 @@
 # vscode-glam
 
-This extension contains code snippets for [glamorous](https://github.com/paypal/glamorous), [glamorous-native](https://github.com/robinpowered/glamorous-native) and [glamorous-primitives](https://github.com/nitin42/glamorous-primitives).
+Code snippets for [glamorous](https://github.com/paypal/glamorous), [glamorous-native](https://github.com/robinpowered/glamorous-native) and [glamorous-primitives](https://github.com/nitin42/glamorous-primitives).
 
 ## Installation
-* Launch the command pallete (`ctrl` + `shift` + `p` or `cmd` + `shift` + `p`)
-* Type install extensions
-* Type `vscode-glam` in the search bar
-* Install the extension and reload the window
+This extension is currently not published on the VSCode Marketplace, so to install it, please clone the repo or download zip to local on:
+
+- Windows: `%USERPROFILE%\.vscode\extensions`
+- macOS/Linux: `$HOME/.vscode/extensions`
 
 ## Supported languages (file extensions)
 * JavaScript
@@ -16,9 +16,7 @@ This extension contains code snippets for [glamorous](https://github.com/paypal/
 
 ## Usage
 
-<p align="center">
-  <img src="http://g.recordit.co/Fs9SgnNLhl.gif" />
-</p>
+![Demo](http://g.recordit.co/Fs9SgnNLhl.gif)
 
 ## Snippets
 Below is a list of all available snippets and the tab triggers of each one.
@@ -218,7 +216,7 @@ Below is a list of all available snippets and the tab triggers of each one.
 
 ### NOTE
 
-This extension is based on a fork of [vscode-glamorous](https://github.com/nitin42/vscode-glamorous)
+This extension is based on a fork of [vscode-glamorous](https://github.com/nitin42/vscode-glamorous).
 
 Thanks to [nitin34](https://github.com/nitin42)! 🙏
 
