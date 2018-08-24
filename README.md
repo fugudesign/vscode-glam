@@ -16,7 +16,9 @@ This extension is currently not published on the VSCode Marketplace, so to insta
 
 ## Usage
 
-![Demo](http://g.recordit.co/Fs9SgnNLhl.gif)
+<p align="center">
+  <img src="http://g.recordit.co/Fs9SgnNLhl.gif"/>
+</p>
 
 ## Snippets
 Below is a list of all available snippets and the tab triggers of each one.
