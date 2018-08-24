@@ -17,7 +17,7 @@ This extension contains code snippets for [glamorous](https://github.com/paypal/
 ## Usage
 
 <p align="center">
-  <img src="http://g.recordit.co/kUCqzUMdYX.gif" />
+  <img src="http://g.recordit.co/Fs9SgnNLhl.gif" />
 </p>
 
 ## Snippets
