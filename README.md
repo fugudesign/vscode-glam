@@ -25,9 +25,9 @@ Start to type `glam`, autocompletion suggest to you all glam snippets.
 
 ## Snippets
 
-All snippet start with `glam…` (like `glamview`) and has its enhanced version starting with `glamp…` (like glampview). 
+All snippet start with `glam…` (like `glamview`) and has its enhanced version starting with `glamp…` (like `glampview`). 
 
-This enhanced version adds an arrow function with props for conditional styles.
+> The `glamp…` version adds an arrow function with props for conditional styles.
 
 ### glamorous
 
