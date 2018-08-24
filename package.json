@@ -2,16 +2,16 @@
 {
   "name": "glamorous-snippets",
   "description": "Code snippets for glamorous",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "displayName": "glamorous code snippets",
-  "publisher": "nitin",
+  "publisher": "fugudesign",
   "icon": "images/glam.png",
   "galleryBanner": {
     "theme": "light"
   },
   "repository": {
     "type": "git",
-    "url": "nitin42/glamorous-snippets"
+    "url": "fugudesign/glamorous-snippets"
   },
   "engines": {
     "vscode": "0.10.x"

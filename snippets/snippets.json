@@ -1,596 +1,1190 @@
 {
   "glamorous.text": {
-    "prefix": "gtext",
+    "prefix": "glamtext",
     "body": [
-      "const ${1:Component} = glamorous.text({\n\n})"
+      "const ${1:Component} = glamorous.text({\n\t$2\n})$0"
     ],
     "description": "glamorous: text()"
   },
-  "glamorous.view": {
-    "prefix": "gview",
+  "glamorous.text.props": {
+    "prefix": "glamptext",
     "body": [
-      "const ${1:Component} = glamorous.view({\n\n})"
+      "const ${1:Component} = glamorous.text((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: text() with props"
+  },
+  "glamorous.view": {
+    "prefix": "glamview",
+    "body": [
+      "const ${1:Component} = glamorous.view({\n\t$2\n})$0"
     ],
     "description": "glamorous: view()"
   },
-  "glamorous.image": {
-    "prefix": "gimage",
+  "glamorous.view.props": {
+    "prefix": "glampview",
     "body": [
-      "const ${1:Component} = glamorous.image({\n\n})"
+      "const ${1:Component} = glamorous.view((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: view() with props"
+  },
+  "glamorous.image": {
+    "prefix": "glamimage",
+    "body": [
+      "const ${1:Component} = glamorous.image({\n\t$2\n})$0"
     ],
     "description": "glamorous: image()"
   },
-  "glamorous.flatlist": {
-    "prefix": "gflat",
+  "glamorous.image.props": {
+    "prefix": "glampimage",
     "body": [
-      "const ${1:Component} = glamorous.flatlist({\n\n})"
+      "const ${1:Component} = glamorous.image((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: image() with props"
+  },
+  "glamorous.flatlist": {
+    "prefix": "glamflat",
+    "body": [
+      "const ${1:Component} = glamorous.flatlist({\n\t$2\n})$0"
     ],
     "description": "glamorous: flatlist()"
   },
-  "glamorous.listview": {
-    "prefix": "glist",
+  "glamorous.flatlist.props": {
+    "prefix": "glampflat",
     "body": [
-      "const ${1:Component} = glamorous.listview({\n\n})"
+      "const ${1:Component} = glamorous.flatlist((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: flatlist() with props"
+  },
+  "glamorous.listview": {
+    "prefix": "glamlist",
+    "body": [
+      "const ${1:Component} = glamorous.listview({\n\t$2\n})$0"
     ],
     "description": "glamorous: listview()"
   },
-  "glamorous.scrollview": {
-    "prefix": "gscroll",
+  "glamorous.listview.props": {
+    "prefix": "glamplist",
     "body": [
-      "const ${1:Component} = glamorous.scrollview({\n\n})"
+      "const ${1:Component} = glamorous.listview((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: listview() with props"
+  },
+  "glamorous.scrollview": {
+    "prefix": "glamscroll",
+    "body": [
+      "const ${1:Component} = glamorous.scrollview({\n\t$2\n})$0"
     ],
     "description": "glamorous: scrollview()"
   },
-  "glamorous.sectionlist": {
-    "prefix": "gsection",
+  "glamorous.scrollview.props": {
+    "prefix": "glampscroll",
     "body": [
-      "const ${1:Component} = glamorous.sectionlist({\n\n})"
+      "const ${1:Component} = glamorous.scrollview((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: scrollview() with props"
+  },
+  "glamorous.sectionlist": {
+    "prefix": "glamsection",
+    "body": [
+      "const ${1:Component} = glamorous.sectionlist({\n\t$2\n})$0"
     ],
     "description": "glamorous: sectionlist()"
   },
-  "glamorous.touchablehighlight": {
-    "prefix": "ghighlight",
+  "glamorous.sectionlist.props": {
+    "prefix": "glampsection",
     "body": [
-      "const ${1:Component} = glamorous.touchablehighlight({\n\n})"
+      "const ${1:Component} = glamorous.sectionlist((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: sectionlist() with props"
+  },
+  "glamorous.touchablehighlight": {
+    "prefix": "glamhighlight",
+    "body": [
+      "const ${1:Component} = glamorous.touchablehighlight({\n\t$2\n})$0"
     ],
     "description": "glamorous: touchablehighlight()"
   },
-  "glamorous.touchablenativefeedback": {
-    "prefix": "gnative",
+  "glamorous.touchablehighlight.props": {
+    "prefix": "glamphighlight",
     "body": [
-      "const ${1:Component} = glamorous.touchablenativefeedback({\n\n})"
+      "const ${1:Component} = glamorous.touchablehighlight((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: touchablehighlight() with props"
+  },
+  "glamorous.touchablenativefeedback": {
+    "prefix": "glamnative",
+    "body": [
+      "const ${1:Component} = glamorous.touchablenativefeedback({\n\t$2\n})$0"
     ],
     "description": "glamorous: touchablenativefeedback()"
   },
-  "glamorous.touchableopacity": {
-    "prefix": "gopacity",
+  "glamorous.touchablenativefeedback.props": {
+    "prefix": "glampnative",
     "body": [
-      "const ${1:Component} = glamorous.touchableopacity({\n\n})"
+      "const ${1:Component} = glamorous.touchablenativefeedback((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: touchablenativefeedback() with props"
+  },
+  "glamorous.touchableopacity": {
+    "prefix": "glamopacity",
+    "body": [
+      "const ${1:Component} = glamorous.touchableopacity({\n\t$2\n})$0"
     ],
     "description": "glamorous: touchableopacity()"
   },
-  "glamorous.textinput": {
-    "prefix": "ginput",
+  "glamorous.touchableopacity.props": {
+    "prefix": "glampopacity",
     "body": [
-      "const ${1:Component} = glamorous.textinput({\n\n})"
+      "const ${1:Component} = glamorous.touchableopacity((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: touchableopacity() with props"
+  },
+  "glamorous.textinput": {
+    "prefix": "glaminput",
+    "body": [
+      "const ${1:Component} = glamorous.textinput({\n\t$2\n})$0"
     ],
     "description": "glamorous: textinput()"
   },
-  "glamorous.h1": {
-    "prefix": "gh1",
+  "glamorous.textinput.props": {
+    "prefix": "glampinput",
     "body": [
-      "const ${1:Component} = glamorous.h1({\n\n})"
+      "const ${1:Component} = glamorous.textinput((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: textinput() with props"
+  },
+  "glamorous.h1": {
+    "prefix": "glamh1",
+    "body": [
+      "const ${1:Component} = glamorous.h1({\n\t$2\n})$0"
     ],
     "description": "glamorous: h1()"
   },
-  "glamorous.h4": {
-    "prefix": "gh4",
+  "glamorous.h1.props": {
+    "prefix": "glamph1",
     "body": [
-      "const ${1:Component} = glamorous.h4({\n\n})"
+      "const ${1:Component} = glamorous.h1((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: h1() with props"
+  },
+  "glamorous.h4": {
+    "prefix": "glamh4",
+    "body": [
+      "const ${1:Component} = glamorous.h4({\n\t$2\n})$0"
     ],
     "description": "glamorous: h4()"
   },
-  "glamorous.h6": {
-    "prefix": "gh6",
+  "glamorous.h4.props": {
+    "prefix": "glamph4",
     "body": [
-      "const ${1:Component} = glamorous.h6({\n\n})"
+      "const ${1:Component} = glamorous.h4((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: h4() with props"
+  },
+  "glamorous.h6": {
+    "prefix": "glamh6",
+    "body": [
+      "const ${1:Component} = glamorous.h6({\n\t$2\n})$0"
     ],
     "description": "glamorous: h6()"
   },
-  "glamorous.h5": {
-    "prefix": "gh5",
+  "glamorous.h6.props": {
+    "prefix": "glamph6",
     "body": [
-      "const ${1:Component} = glamorous.h5({\n\n})"
+      "const ${1:Component} = glamorous.h6((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: h6() with props"
+  },
+  "glamorous.h5": {
+    "prefix": "glamh5",
+    "body": [
+      "const ${1:Component} = glamorous.h5({\n\t$2\n})$0"
     ],
     "description": "glamorous: h5()"
   },
-  "glamorous.h2": {
-    "prefix": "gh2",
+  "glamorous.h5.props": {
+    "prefix": "glamph5",
     "body": [
-      "const ${1:Component} = glamorous.h2({\n\n})"
+      "const ${1:Component} = glamorous.h5((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: h5() with props"
+  },
+  "glamorous.h2": {
+    "prefix": "glamh2",
+    "body": [
+      "const ${1:Component} = glamorous.h2({\n\t$2\n})$0"
     ],
     "description": "glamorous: h2()"
   },
-  "glamorous.h3": {
-    "prefix": "gh3",
+  "glamorous.h2.props": {
+    "prefix": "glamph2",
     "body": [
-      "const ${1:Component} = glamorous.h3({\n\n})"
+      "const ${1:Component} = glamorous.h2((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: h2() with props"
+  },
+  "glamorous.h3": {
+    "prefix": "glamh3",
+    "body": [
+      "const ${1:Component} = glamorous.h3({\n\t$2\n})$0"
     ],
     "description": "glamorous: h3()"
   },
-  "glamorous.p": {
-    "prefix": "gp",
+  "glamorous.h3.props": {
+    "prefix": "glamph3",
     "body": [
-      "const ${1:Component} = glamorous.p({\n\n})"
+      "const ${1:Component} = glamorous.h3((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: h3() with props"
+  },
+  "glamorous.p": {
+    "prefix": "glamp",
+    "body": [
+      "const ${1:Component} = glamorous.p({\n\t$2\n})$0"
     ],
     "description": "glamorous: p()"
   },
-  "glamorous.code": {
-    "prefix": "gcode",
+  "glamorous.p.props": {
+    "prefix": "glampp",
     "body": [
-      "const ${1:Component} = glamorous.code({\n\n})"
+      "const ${1:Component} = glamorous.p((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: p() with props"
+  },
+  "glamorous.code": {
+    "prefix": "glamcode",
+    "body": [
+      "const ${1:Component} = glamorous.code({\n\t$2\n})$0"
     ],
     "description": "glamorous: code()"
   },
-  "glamorous.abbr": {
-    "prefix": "gabbr",
+  "glamorous.code.props": {
+    "prefix": "glampcode",
     "body": [
-      "const ${1:Component} = glamorous.abbr({\n\n})"
+      "const ${1:Component} = glamorous.code((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: code() with props"
+  },
+  "glamorous.abbr": {
+    "prefix": "glamabbr",
+    "body": [
+      "const ${1:Component} = glamorous.abbr({\n\t$2\n})$0"
     ],
     "description": "glamorous: abbr()"
   },
-  "glamorous.address": {
-    "prefix": "gaddress",
+  "glamorous.abbr.props": {
+    "prefix": "glampabbr",
     "body": [
-      "const ${1:Component} = glamorous.address({\n\n})"
+      "const ${1:Component} = glamorous.abbr((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: abbr() with props"
+  },
+  "glamorous.address": {
+    "prefix": "glamaddress",
+    "body": [
+      "const ${1:Component} = glamorous.address({\n\t$2\n})$0"
     ],
     "description": "glamorous: address()"
   },
-  "glamorous.b": {
-    "prefix": "gb",
+  "glamorous.address.props": {
+    "prefix": "glampaddress",
     "body": [
-      "const ${1:Component} = glamorous.b({\n\n})"
+      "const ${1:Component} = glamorous.address((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: address() with props"
+  },
+  "glamorous.b": {
+    "prefix": "glamb",
+    "body": [
+      "const ${1:Component} = glamorous.b({\n\t$2\n})$0"
     ],
     "description": "glamorous: b()"
   },
-  "glamorous.blockquote": {
-    "prefix": "gblockquote",
+  "glamorous.b.props": {
+    "prefix": "glampb",
     "body": [
-      "const ${1:Component} = glamorous.blockquote({\n\n})"
+      "const ${1:Component} = glamorous.b((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: b() with props"
+  },
+  "glamorous.blockquote": {
+    "prefix": "glamblockquote",
+    "body": [
+      "const ${1:Component} = glamorous.blockquote({\n\t$2\n})$0"
     ],
     "description": "glamorous: blockquote()"
   },
-  "glamorous.cite": {
-    "prefix": "gcite",
+  "glamorous.blockquote.props": {
+    "prefix": "glampblockquote",
     "body": [
-      "const ${1:Component} = glamorous.cite({\n\n})"
+      "const ${1:Component} = glamorous.blockquote((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: blockquote() with props"
+  },
+  "glamorous.cite": {
+    "prefix": "glamcite",
+    "body": [
+      "const ${1:Component} = glamorous.cite({\n\t$2\n})$0"
     ],
     "description": "glamorous: cite()"
   },
-  "glamorous.del": {
-    "prefix": "gdel",
+  "glamorous.cite.props": {
+    "prefix": "glampcite",
     "body": [
-      "const ${1:Component} = glamorous.del({\n\n})"
+      "const ${1:Component} = glamorous.cite((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: cite() with props"
+  },
+  "glamorous.del": {
+    "prefix": "glamdel",
+    "body": [
+      "const ${1:Component} = glamorous.del({\n\t$2\n})$0"
     ],
     "description": "glamorous: del()"
   },
-  "glamorous.em": {
-    "prefix": "gem",
+  "glamorous.del.props": {
+    "prefix": "glampdel",
     "body": [
-      "const ${1:Component} = glamorous.em({\n\n})"
+      "const ${1:Component} = glamorous.del((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: del() with props"
+  },
+  "glamorous.em": {
+    "prefix": "glamem",
+    "body": [
+      "const ${1:Component} = glamorous.em({\n\t$2\n})$0"
     ],
     "description": "glamorous: em()"
   },
-  "glamorous.i": {
-    "prefix": "gi",
+  "glamorous.em.props": {
+    "prefix": "glampem",
     "body": [
-      "const ${1:Component} = glamorous.i({\n\n})"
+      "const ${1:Component} = glamorous.em((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: em() with props"
+  },
+  "glamorous.i": {
+    "prefix": "glami",
+    "body": [
+      "const ${1:Component} = glamorous.i({\n\t$2\n})$0"
     ],
     "description": "glamorous: i()"
   },
-  "glamorous.ins": {
-    "prefix": "gins",
+  "glamorous.i.props": {
+    "prefix": "glampi",
     "body": [
-      "const ${1:Component} = glamorous.ins({\n\n})"
+      "const ${1:Component} = glamorous.i((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: i() with props"
+  },
+  "glamorous.ins": {
+    "prefix": "glamins",
+    "body": [
+      "const ${1:Component} = glamorous.ins({\n\t$2\n})$0"
     ],
     "description": "glamorous: ins()"
   },
-  "glamorous.pre": {
-    "prefix": "gpre",
+  "glamorous.ins.props": {
+    "prefix": "glampins",
     "body": [
-      "const ${1:Component} = glamorous.pre({\n\n})"
+      "const ${1:Component} = glamorous.ins((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: ins() with props"
+  },
+  "glamorous.pre": {
+    "prefix": "glampre",
+    "body": [
+      "const ${1:Component} = glamorous.pre({\n\t$2\n})$0"
     ],
     "description": "glamorous: pre()"
   },
-  "glamorous.mark": {
-    "prefix": "gmark",
+  "glamorous.pre.props": {
+    "prefix": "glamppre",
     "body": [
-      "const ${1:Component} = glamorous.mark({\n\n})"
+      "const ${1:Component} = glamorous.pre((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: pre() with props"
+  },
+  "glamorous.mark": {
+    "prefix": "glammark",
+    "body": [
+      "const ${1:Component} = glamorous.mark({\n\t$2\n})$0"
     ],
     "description": "glamorous: mark()"
   },
-  "glamorous.meter": {
-    "prefix": "gmeter",
+  "glamorous.mark.props": {
+    "prefix": "glampmark",
     "body": [
-      "const ${1:Component} = glamorous.meter({\n\n})"
+      "const ${1:Component} = glamorous.mark((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: mark() with props"
+  },
+  "glamorous.meter": {
+    "prefix": "glammeter",
+    "body": [
+      "const ${1:Component} = glamorous.meter({\n\t$2\n})$0"
     ],
     "description": "glamorous: meter()"
   },
-  "glamorous.progress": {
-    "prefix": "gprogress",
+  "glamorous.meter.props": {
+    "prefix": "glampmeter",
     "body": [
-      "const ${1:Component} = glamorous.progress({\n\n})"
+      "const ${1:Component} = glamorous.meter((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: meter() with props"
+  },
+  "glamorous.progress": {
+    "prefix": "glamprogress",
+    "body": [
+      "const ${1:Component} = glamorous.progress({\n\t$2\n})$0"
     ],
     "description": "glamorous: progress()"
   },
-  "glamorous.q": {
-    "prefix": "gq",
+  "glamorous.progress.props": {
+    "prefix": "glampprogress",
     "body": [
-      "const ${1:Component} = glamorous.q({\n\n})"
+      "const ${1:Component} = glamorous.progress((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: progress() with props"
+  },
+  "glamorous.q": {
+    "prefix": "glamq",
+    "body": [
+      "const ${1:Component} = glamorous.q({\n\t$2\n})$0"
     ],
     "description": "glamorous: q()"
   },
-  "glamorous.rp": {
-    "prefix": "grp",
+  "glamorous.q.props": {
+    "prefix": "glampq",
     "body": [
-      "const ${1:Component} = glamorous.rp({\n\n})"
+      "const ${1:Component} = glamorous.q((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: q() with props"
+  },
+  "glamorous.rp": {
+    "prefix": "glamrp",
+    "body": [
+      "const ${1:Component} = glamorous.rp({\n\t$2\n})$0"
     ],
     "description": "glamorous: rp()"
   },
-  "glamorous.ruby": {
-    "prefix": "gruby",
+  "glamorous.rp.props": {
+    "prefix": "glamprp",
     "body": [
-      "const ${1:Component} = glamorous.ruby({\n\n})"
+      "const ${1:Component} = glamorous.rp((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: rp() with props"
+  },
+  "glamorous.ruby": {
+    "prefix": "glamruby",
+    "body": [
+      "const ${1:Component} = glamorous.ruby({\n\t$2\n})$0"
     ],
     "description": "glamorous: ruby()"
   },
-  "glamorous.s": {
-    "prefix": "gs",
+  "glamorous.ruby.props": {
+    "prefix": "glampruby",
     "body": [
-      "const ${1:Component} = glamorous.s({\n\n})"
+      "const ${1:Component} = glamorous.ruby((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: ruby() with props"
+  },
+  "glamorous.s": {
+    "prefix": "glams",
+    "body": [
+      "const ${1:Component} = glamorous.s({\n\t$2\n})$0"
     ],
     "description": "glamorous: s()"
   },
-  "glamorous.samp": {
-    "prefix": "gsamp",
+  "glamorous.s.props": {
+    "prefix": "glamps",
     "body": [
-      "const ${1:Component} = glamorous.samp({\n\n})"
+      "const ${1:Component} = glamorous.s((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: s() with props"
+  },
+  "glamorous.samp": {
+    "prefix": "glamsamp",
+    "body": [
+      "const ${1:Component} = glamorous.samp({\n\t$2\n})$0"
     ],
     "description": "glamorous: samp()"
   },
-  "glamorous.header": {
-    "prefix": "gheader",
+  "glamorous.samp.props": {
+    "prefix": "glampsamp",
     "body": [
-      "const ${1:Component} = glamorous.header({\n\n})"
+      "const ${1:Component} = glamorous.samp((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: samp() with props"
+  },
+  "glamorous.header": {
+    "prefix": "glamheader",
+    "body": [
+      "const ${1:Component} = glamorous.header({\n\t$2\n})$0"
     ],
     "description": "glamorous: header()"
   },
-  "glamorous.u": {
-    "prefix": "gu",
+  "glamorous.header.props": {
+    "prefix": "glampheader",
     "body": [
-      "const ${1:Component} = glamorous.u({\n\n})"
+      "const ${1:Component} = glamorous.header((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: header() with props"
+  },
+  "glamorous.u": {
+    "prefix": "glamu",
+    "body": [
+      "const ${1:Component} = glamorous.u({\n\t$2\n})$0"
     ],
     "description": "glamorous: u()"
   },
-  "glamorous.form": {
-    "prefix": "gform",
+  "glamorous.u.props": {
+    "prefix": "glampu",
     "body": [
-      "const ${1:Component} = glamorous.form({\n\n})"
+      "const ${1:Component} = glamorous.u((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: u() with props"
+  },
+  "glamorous.form": {
+    "prefix": "glamform",
+    "body": [
+      "const ${1:Component} = glamorous.form({\n\t$2\n})$0"
     ],
     "description": "glamorous: form()"
   },
-  "glamorous.input": {
-    "prefix": "ginp",
+  "glamorous.form.props": {
+    "prefix": "glampform",
     "body": [
-      "const ${1:Component} = glamorous.input({\n\n})"
+      "const ${1:Component} = glamorous.form((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: form() with props"
+  },
+  "glamorous.input": {
+    "prefix": "glaminp",
+    "body": [
+      "const ${1:Component} = glamorous.input({\n\t$2\n})$0"
     ],
     "description": "glamorous: input()"
   },
-  "glamorous.textarea": {
-    "prefix": "gtextarea",
+  "glamorous.input.props": {
+    "prefix": "glampinp",
     "body": [
-      "const ${1:Component} = glamorous.textarea({\n\n})"
+      "const ${1:Component} = glamorous.input((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: input() with props"
+  },
+  "glamorous.textarea": {
+    "prefix": "glamtextarea",
+    "body": [
+      "const ${1:Component} = glamorous.textarea({\n\t$2\n})$0"
     ],
     "description": "glamorous: textarea()"
   },
-  "glamorous.button": {
-    "prefix": "gbutton",
+  "glamorous.textarea.props": {
+    "prefix": "glamptextarea",
     "body": [
-      "const ${1:Component} = glamorous.button({\n\n})"
+      "const ${1:Component} = glamorous.textarea((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: textarea() with props"
+  },
+  "glamorous.button": {
+    "prefix": "glambutton",
+    "body": [
+      "const ${1:Component} = glamorous.button({\n\t$2\n})$0"
     ],
     "description": "glamorous: button()"
   },
-  "glamorous.select": {
-    "prefix": "gselect",
+  "glamorous.button.props": {
+    "prefix": "glampbutton",
     "body": [
-      "const ${1:Component} = glamorous.select({\n\n})"
+      "const ${1:Component} = glamorous.button((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: button() with props"
+  },
+  "glamorous.select": {
+    "prefix": "glamselect",
+    "body": [
+      "const ${1:Component} = glamorous.select({\n\t$2\n})$0"
     ],
     "description": "glamorous: select()"
   },
-  "glamorous.optgroup": {
-    "prefix": "goptgroup",
+  "glamorous.select.props": {
+    "prefix": "glampselect",
     "body": [
-      "const ${1:Component} = glamorous.optgroup({\n\n})"
+      "const ${1:Component} = glamorous.select((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: select() with props"
+  },
+  "glamorous.optgroup": {
+    "prefix": "glamoptgroup",
+    "body": [
+      "const ${1:Component} = glamorous.optgroup({\n\t$2\n})$0"
     ],
     "description": "glamorous: optgroup()"
   },
-  "glamorous.option": {
-    "prefix": "goption",
+  "glamorous.optgroup.props": {
+    "prefix": "glampoptgroup",
     "body": [
-      "const ${1:Component} = glamorous.option({\n\n})"
+      "const ${1:Component} = glamorous.optgroup((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: optgroup() with props"
+  },
+  "glamorous.option": {
+    "prefix": "glamoption",
+    "body": [
+      "const ${1:Component} = glamorous.option({\n\t$2\n})$0"
     ],
     "description": "glamorous: option()"
   },
-  "glamorous.label": {
-    "prefix": "glabel",
+  "glamorous.option.props": {
+    "prefix": "glampoption",
     "body": [
-      "const ${1:Component} = glamorous.label({\n\n})"
+      "const ${1:Component} = glamorous.option((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: option() with props"
+  },
+  "glamorous.label": {
+    "prefix": "glamlabel",
+    "body": [
+      "const ${1:Component} = glamorous.label({\n\t$2\n})$0"
     ],
     "description": "glamorous: label()"
   },
-  "glamorous.fieldset": {
-    "prefix": "gfieldset",
+  "glamorous.label.props": {
+    "prefix": "glamplabel",
     "body": [
-      "const ${1:Component} = glamorous.fieldset({\n\n})"
+      "const ${1:Component} = glamorous.label((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: label() with props"
+  },
+  "glamorous.fieldset": {
+    "prefix": "glamfieldset",
+    "body": [
+      "const ${1:Component} = glamorous.fieldset({\n\t$2\n})$0"
     ],
     "description": "glamorous: fieldset()"
   },
-  "glamorous.legend": {
-    "prefix": "glegend",
+  "glamorous.fieldset.props": {
+    "prefix": "glampfieldset",
     "body": [
-      "const ${1:Component} = glamorous.legend({\n\n})"
+      "const ${1:Component} = glamorous.fieldset((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: fieldset() with props"
+  },
+  "glamorous.legend": {
+    "prefix": "glamlegend",
+    "body": [
+      "const ${1:Component} = glamorous.legend({\n\t$2\n})$0"
     ],
     "description": "glamorous: legend()"
   },
-  "glamorous.img": {
-    "prefix": "gimg",
+  "glamorous.legend.props": {
+    "prefix": "glamplegend",
     "body": [
-      "const ${1:Component} = glamorous.img({\n\n})"
+      "const ${1:Component} = glamorous.legend((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: legend() with props"
+  },
+  "glamorous.img": {
+    "prefix": "glamimg",
+    "body": [
+      "const ${1:Component} = glamorous.img({\n\t$2\n})$0"
     ],
     "description": "glamorous: img()"
   },
-  "glamorous.map": {
-    "prefix": "gmap",
+  "glamorous.img.props": {
+    "prefix": "glampimg",
     "body": [
-      "const ${1:Component} = glamorous.map({\n\n})"
+      "const ${1:Component} = glamorous.img((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: img() with props"
+  },
+  "glamorous.map": {
+    "prefix": "glammap",
+    "body": [
+      "const ${1:Component} = glamorous.map({\n\t$2\n})$0"
     ],
     "description": "glamorous: map()"
   },
-  "glamorous.area": {
-    "prefix": "garea",
+  "glamorous.map.props": {
+    "prefix": "glampmap",
     "body": [
-      "const ${1:Component} = glamorous.area({\n\n})"
+      "const ${1:Component} = glamorous.map((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: map() with props"
+  },
+  "glamorous.area": {
+    "prefix": "glamarea",
+    "body": [
+      "const ${1:Component} = glamorous.area({\n\t$2\n})$0"
     ],
     "description": "glamorous: area()"
   },
-  "glamorous.a": {
-    "prefix": "ga",
+  "glamorous.area.props": {
+    "prefix": "glamparea",
     "body": [
-      "const ${1:Component} = glamorous.a({\n\n})"
+      "const ${1:Component} = glamorous.area((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: area() with props"
+  },
+  "glamorous.a": {
+    "prefix": "glama",
+    "body": [
+      "const ${1:Component} = glamorous.a({\n\t$2\n})$0"
     ],
     "description": "glamorous: a()"
   },
-  "glamorous.nav": {
-    "prefix": "gnav",
+  "glamorous.a.props": {
+    "prefix": "glampa",
     "body": [
-      "const ${1:Component} = glamorous.nav({\n\n})"
+      "const ${1:Component} = glamorous.a((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: a() with props"
+  },
+  "glamorous.nav": {
+    "prefix": "glamnav",
+    "body": [
+      "const ${1:Component} = glamorous.nav({\n\t$2\n})$0"
     ],
     "description": "glamorous: nav()"
   },
-  "glamorous.ul": {
-    "prefix": "gul",
+  "glamorous.nav.props": {
+    "prefix": "glampnav",
     "body": [
-      "const ${1:Component} = glamorous.ul({\n\n})"
+      "const ${1:Component} = glamorous.nav((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: nav() with props"
+  },
+  "glamorous.ul": {
+    "prefix": "glamul",
+    "body": [
+      "const ${1:Component} = glamorous.ul({\n\t$2\n})$0"
     ],
     "description": "glamorous: ul()"
   },
-  "glamorous.li": {
-    "prefix": "gli",
+  "glamorous.ul.props": {
+    "prefix": "glampul",
     "body": [
-      "const ${1:Component} = glamorous.li({\n\n})"
+      "const ${1:Component} = glamorous.ul((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: ul() with props"
+  },
+  "glamorous.li": {
+    "prefix": "glamli",
+    "body": [
+      "const ${1:Component} = glamorous.li({\n\t$2\n})$0"
     ],
     "description": "glamorous: li()"
   },
-  "glamorous.ol": {
-    "prefix": "gol",
+  "glamorous.li.props": {
+    "prefix": "glampli",
     "body": [
-      "const ${1:Component} = glamorous.ol({\n\n})"
+      "const ${1:Component} = glamorous.li((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: li() with props"
+  },
+  "glamorous.ol": {
+    "prefix": "glamol",
+    "body": [
+      "const ${1:Component} = glamorous.ol({\n\t$2\n})$0"
     ],
     "description": "glamorous: ol()"
   },
-  "glamorous.dl": {
-    "prefix": "gdl",
+  "glamorous.ol.props": {
+    "prefix": "glampol",
     "body": [
-      "const ${1:Component} = glamorous.dl({\n\n})"
+      "const ${1:Component} = glamorous.ol((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: ol() with props"
+  },
+  "glamorous.dl": {
+    "prefix": "glamdl",
+    "body": [
+      "const ${1:Component} = glamorous.dl({\n\t$2\n})$0"
     ],
     "description": "glamorous: dl()"
   },
-  "glamorous.dt": {
-    "prefix": "gdt",
+  "glamorous.dl.props": {
+    "prefix": "glampdl",
     "body": [
-      "const ${1:Component} = glamorous.dt({\n\n})"
+      "const ${1:Component} = glamorous.dl((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: dl() with props"
+  },
+  "glamorous.dt": {
+    "prefix": "glamdt",
+    "body": [
+      "const ${1:Component} = glamorous.dt({\n\t$2\n})$0"
     ],
     "description": "glamorous: dt()"
   },
-  "glamorous.dd": {
-    "prefix": "gdd",
+  "glamorous.dt.props": {
+    "prefix": "glampdt",
     "body": [
-      "const ${1:Component} = glamorous.dd({\n\n})"
+      "const ${1:Component} = glamorous.dt((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: dt() with props"
+  },
+  "glamorous.dd": {
+    "prefix": "glamdd",
+    "body": [
+      "const ${1:Component} = glamorous.dd({\n\t$2\n})$0"
     ],
     "description": "glamorous: dd()"
   },
-  "glamorous.menu": {
-    "prefix": "gmenu",
+  "glamorous.dd.props": {
+    "prefix": "glampdd",
     "body": [
-      "const ${1:Component} = glamorous.menu({\n\n})"
+      "const ${1:Component} = glamorous.dd((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: dd() with props"
+  },
+  "glamorous.menu": {
+    "prefix": "glammenu",
+    "body": [
+      "const ${1:Component} = glamorous.menu({\n\t$2\n})$0"
     ],
     "description": "glamorous: menu()"
   },
-  "glamorous.table": {
-    "prefix": "gtable",
+  "glamorous.menu.props": {
+    "prefix": "glampmenu",
     "body": [
-      "const ${1:Component} = glamorous.table({\n\n})"
+      "const ${1:Component} = glamorous.menu((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: menu() with props"
+  },
+  "glamorous.table": {
+    "prefix": "glamtable",
+    "body": [
+      "const ${1:Component} = glamorous.table({\n\t$2\n})$0"
     ],
     "description": "glamorous: table()"
   },
-  "glamorous.caption": {
-    "prefix": "gcaption",
+  "glamorous.table.props": {
+    "prefix": "glamptable",
     "body": [
-      "const ${1:Component} = glamorous.caption({\n\n})"
+      "const ${1:Component} = glamorous.table((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: table() with props"
+  },
+  "glamorous.caption": {
+    "prefix": "glamcaption",
+    "body": [
+      "const ${1:Component} = glamorous.caption({\n\t$2\n})$0"
     ],
     "description": "glamorous: caption()"
   },
-  "glamorous.th": {
-    "prefix": "gth",
+  "glamorous.caption.props": {
+    "prefix": "glampcaption",
     "body": [
-      "const ${1:Component} = glamorous.th({\n\n})"
+      "const ${1:Component} = glamorous.caption((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: caption() with props"
+  },
+  "glamorous.th": {
+    "prefix": "glamth",
+    "body": [
+      "const ${1:Component} = glamorous.th({\n\t$2\n})$0"
     ],
     "description": "glamorous: th()"
   },
-  "glamorous.tr": {
-    "prefix": "gtr",
+  "glamorous.th.props": {
+    "prefix": "glampth",
     "body": [
-      "const ${1:Component} = glamorous.tr({\n\n})"
+      "const ${1:Component} = glamorous.th((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: th() with props"
+  },
+  "glamorous.tr": {
+    "prefix": "glamtr",
+    "body": [
+      "const ${1:Component} = glamorous.tr({\n\t$2\n})$0"
     ],
     "description": "glamorous: tr()"
   },
-  "glamorous.td": {
-    "prefix": "gtd",
+  "glamorous.tr.props": {
+    "prefix": "glamptr",
     "body": [
-      "const ${1:Component} = glamorous.td({\n\n})"
+      "const ${1:Component} = glamorous.tr((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: tr() with props"
+  },
+  "glamorous.td": {
+    "prefix": "glamtd",
+    "body": [
+      "const ${1:Component} = glamorous.td({\n\t$2\n})$0"
     ],
     "description": "glamorous: td()"
   },
-  "glamorous.thead": {
-    "prefix": "gthead",
+  "glamorous.td.props": {
+    "prefix": "glamptd",
     "body": [
-      "const ${1:Component} = glamorous.thead({\n\n})"
+      "const ${1:Component} = glamorous.td((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: td() with props"
+  },
+  "glamorous.thead": {
+    "prefix": "glamthead",
+    "body": [
+      "const ${1:Component} = glamorous.thead({\n\t$2\n})$0"
     ],
     "description": "glamorous: thead()"
   },
-  "glamorous.tbody": {
-    "prefix": "gtbody",
+  "glamorous.thead.props": {
+    "prefix": "glampthead",
     "body": [
-      "const ${1:Component} = glamorous.tbody({\n\n})"
+      "const ${1:Component} = glamorous.thead((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: thead() with props"
+  },
+  "glamorous.tbody": {
+    "prefix": "glamtbody",
+    "body": [
+      "const ${1:Component} = glamorous.tbody({\n\t$2\n})$0"
     ],
     "description": "glamorous: tbody()"
   },
-  "glamorous.tfoot": {
-    "prefix": "gtfoot",
+  "glamorous.tbody.props": {
+    "prefix": "glamptbody",
     "body": [
-      "const ${1:Component} = glamorous.tfoot({\n\n})"
+      "const ${1:Component} = glamorous.tbody((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: tbody() with props"
+  },
+  "glamorous.tfoot": {
+    "prefix": "glamtfoot",
+    "body": [
+      "const ${1:Component} = glamorous.tfoot({\n\t$2\n})$0"
     ],
     "description": "glamorous: tfoot()"
   },
-  "glamorous.col": {
-    "prefix": "gcol",
+  "glamorous.tfoot.props": {
+    "prefix": "glamptfoot",
     "body": [
-      "const ${1:Component} = glamorous.col({\n\n})"
+      "const ${1:Component} = glamorous.tfoot((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: tfoot() with props"
+  },
+  "glamorous.col": {
+    "prefix": "glamcol",
+    "body": [
+      "const ${1:Component} = glamorous.col({\n\t$2\n})$0"
     ],
     "description": "glamorous: col()"
   },
-  "glamorous.colgroup": {
-    "prefix": "gcolgroup",
+  "glamorous.col.props": {
+    "prefix": "glampcol",
     "body": [
-      "const ${1:Component} = glamorous.colgroup({\n\n})"
+      "const ${1:Component} = glamorous.col((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: col() with props"
+  },
+  "glamorous.colgroup": {
+    "prefix": "glamcolgroup",
+    "body": [
+      "const ${1:Component} = glamorous.colgroup({\n\t$2\n})$0"
     ],
     "description": "glamorous: colgroup()"
   },
-  "glamorous.div": {
-    "prefix": "gdiv",
+  "glamorous.colgroup.props": {
+    "prefix": "glampcolgroup",
     "body": [
-      "const ${1:Component} = glamorous.div({\n\n})"
+      "const ${1:Component} = glamorous.colgroup((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: colgroup() with props"
+  },
+  "glamorous.div": {
+    "prefix": "glamdiv",
+    "body": [
+      "const ${1:Component} = glamorous.div({\n\t$2\n})$0"
     ],
     "description": "glamorous: div()"
   },
-  "glamorous.span": {
-    "prefix": "gspan",
+  "glamorous.div.props": {
+    "prefix": "glampdiv",
     "body": [
-      "const ${1:Component} = glamorous.span({\n\n})"
+      "const ${1:Component} = glamorous.div((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: div() with props"
+  },
+  "glamorous.span": {
+    "prefix": "glamspan",
+    "body": [
+      "const ${1:Component} = glamorous.span({\n\t$2\n})$0"
     ],
     "description": "glamorous: span()"
   },
-  "glamorous.sub": {
-    "prefix": "gsub",
+  "glamorous.span.props": {
+    "prefix": "glampspan",
     "body": [
-      "const ${1:Component} = glamorous.sub({\n\n})"
+      "const ${1:Component} = glamorous.span((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: span() with props"
+  },
+  "glamorous.sub": {
+    "prefix": "glamsub",
+    "body": [
+      "const ${1:Component} = glamorous.sub({\n\t$2\n})$0"
     ],
     "description": "glamorous: sub()"
   },
-  "glamorous.time": {
-    "prefix": "gtime",
+  "glamorous.sub.props": {
+    "prefix": "glampsub",
     "body": [
-      "const ${1:Component} = glamorous.time({\n\n})"
+      "const ${1:Component} = glamorous.sub((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: sub() with props"
+  },
+  "glamorous.time": {
+    "prefix": "glamtime",
+    "body": [
+      "const ${1:Component} = glamorous.time({\n\t$2\n})$0"
     ],
     "description": "glamorous: time()"
   },
-  "glamorous.data": {
-    "prefix": "gdata",
+  "glamorous.time.props": {
+    "prefix": "glamptime",
     "body": [
-      "const ${1:Component} = glamorous.datalist({\n\n})"
+      "const ${1:Component} = glamorous.time((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: time() with props"
+  },
+  "glamorous.data": {
+    "prefix": "glamdata",
+    "body": [
+      "const ${1:Component} = glamorous.datalist({\n\t$2\n})$0"
     ],
     "description": "glamorous: datalist()"
   },
-  "glamorous.out": {
-    "prefix": "gout",
+  "glamorous.data.props": {
+    "prefix": "glampdata",
     "body": [
-      "const ${1:Component} = glamorous.output({\n\n})"
+      "const ${1:Component} = glamorous.datalist((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: datalist() with props"
+  },
+  "glamorous.out": {
+    "prefix": "glamout",
+    "body": [
+      "const ${1:Component} = glamorous.output({\n\t$2\n})$0"
     ],
     "description": "glamorous: output()"
   },
-  "glamorous.footer": {
-    "prefix": "gfoot",
+  "glamorous.out.props": {
+    "prefix": "glampout",
     "body": [
-      "const ${1:Component} = glamorous.footer({\n\n})"
+      "const ${1:Component} = glamorous.output((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: output() with props"
+  },
+  "glamorous.footer": {
+    "prefix": "glamfoot",
+    "body": [
+      "const ${1:Component} = glamorous.footer({\n\t$2\n})$0"
     ],
     "description": "glamorous: footer()"
   },
-  "glamorous.main": {
-    "prefix": "gmain",
+  "glamorous.footer.props": {
+    "prefix": "glampfoot",
     "body": [
-      "const ${1:Component} = glamorous.main({\n\n})"
+      "const ${1:Component} = glamorous.footer((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: footer() with props"
+  },
+  "glamorous.main": {
+    "prefix": "glammain",
+    "body": [
+      "const ${1:Component} = glamorous.main({\n\t$2\n})$0"
     ],
     "description": "glamorous: main()"
   },
-  "glamorous.section": {
-    "prefix": "gsec",
+  "glamorous.main.props": {
+    "prefix": "glampmain",
     "body": [
-      "const ${1:Component} = glamorous.section({\n\n})"
+      "const ${1:Component} = glamorous.main((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: main() with props"
+  },
+  "glamorous.section": {
+    "prefix": "glamsec",
+    "body": [
+      "const ${1:Component} = glamorous.section({\n\t$2\n})$0"
     ],
     "description": "glamorous: section()"
   },
-  "glamorous.article": {
-    "prefix": "garticle",
+  "glamorous.section.props": {
+    "prefix": "glampsec",
     "body": [
-      "const ${1:Component} = glamorous.article({\n\n})"
+      "const ${1:Component} = glamorous.section((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: section() with props"
+  },
+  "glamorous.article": {
+    "prefix": "glamarticle",
+    "body": [
+      "const ${1:Component} = glamorous.article({\n\t$2\n})$0"
     ],
     "description": "glamorous: article()"
   },
-  "glamorous.aside": {
-    "prefix": "gaside",
+  "glamorous.article.props": {
+    "prefix": "glamparticle",
     "body": [
-      "const ${1:Component} = glamorous.aside({\n\n})"
+      "const ${1:Component} = glamorous.article((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: article() with props"
+  },
+  "glamorous.aside": {
+    "prefix": "glamaside",
+    "body": [
+      "const ${1:Component} = glamorous.aside({\n\t$2\n})$0"
     ],
     "description": "glamorous: aside()"
   },
-  "glamorous.details": {
-    "prefix": "gdetail",
+  "glamorous.aside.props": {
+    "prefix": "glampaside",
     "body": [
-      "const ${1:Component} = glamorous.details({\n\n})"
+      "const ${1:Component} = glamorous.aside((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: aside() with props"
+  },
+  "glamorous.details": {
+    "prefix": "glamdetail",
+    "body": [
+      "const ${1:Component} = glamorous.details({\n\t$2\n})$0"
     ],
     "description": "glamorous: details()"
   },
-  "glamorous.dialog": {
-    "prefix": "gdial",
+  "glamorous.details.props": {
+    "prefix": "glampdetail",
     "body": [
-      "const ${1:Component} = glamorous.dialog({\n\n})"
+      "const ${1:Component} = glamorous.details((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "description": "glamorous: details() with props"
+  },
+  "glamorous.dialog": {
+    "prefix": "glamdial",
+    "body": [
+      "const ${1:Component} = glamorous.dialog({\n\t$2\n})$0"
     ],
     "description": "glamorous: dialog()"
   },
-  "glamorous.summary": {
-    "prefix": "gsumm",
+  "glamorous.dialog.props": {
+    "prefix": "glampdial",
     "body": [
-      "const ${1:Component} = glamorous.summary({\n\n})"
+      "const ${1:Component} = glamorous.dialog((${2:props}) => ({\n\t$3\n}))$0"
+    ],
+    "descripti": "glamorous: d2alog() with props"
+  },
+  "glamorous.summary": {
+    "prefix": "glamsumm",
+    "body": [
+      "const ${1:Component} = glamorous.summary($2{\n\t$3\n})$0"
+    ],
+    "description":proppsummar y()"(${2:|props,{prop}|}) )=>(}
+  "glamorous.summary": {
+    "prefix": "glamsumm",
+    "body": [
+      "const ${1:Component} = glamorous.summary($2{\n\t$3\n})$0"
     ],
     "description": "glamorous: summary()"
   }
