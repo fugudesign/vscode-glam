@@ -32,7 +32,7 @@ All snippet start with `glam…` (like `glamview`) and has its enhanced version 
 ### glamorous
 
 | Tab trigger        | Content      |
-| ------------- |-------------|
+| ------------- | ------------- |
 | glama      | `const Component = glamorous.a({})` |
 | glampa      | `const Component = glamorous.a((props) => ({}))` |
 | glamdiv      | `const Component = glamorous.div({})` |
@@ -187,7 +187,7 @@ All snippet start with `glam…` (like `glamview`) and has its enhanced version 
 ### glamorous-native
 
 | Tab trigger        | Content      |
-| ------------- |:-------------:|
+| ------------- | ------------- |
 | glamtext      | `const Component = glamorous.text({})` |
 | glamptext      | `const Component = glamorous.text((props) => ({}))` |
 | glamview      | `const Component = glamorous.view({})` |
@@ -214,7 +214,7 @@ All snippet start with `glam…` (like `glamview`) and has its enhanced version 
 ### glamorous-primitives
 
 | Tab trigger        | Content      |
-| ------------- |:-------------:|
+| ------------- | ------------- |
 | glamtext     | `const Component = glamorous.text({})` |
 | glamptext     | `const Component = glamorous.text((props) => ({}))` |
 | glamview      | `const Component = glamorous.view({})` |
