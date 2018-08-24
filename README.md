@@ -17,17 +17,22 @@ This extension is currently not published on the VSCode Marketplace, so to insta
 
 ## Usage
 
+Start to type `glam`, autocompletion suggest to you all glam snippets.
+
 <p align="center">
   <img src="http://g.recordit.co/Fs9SgnNLhl.gif"/>
 </p>
 
 ## Snippets
-Below is a list of all available snippets and the tab triggers of each one.
+
+All snippet start with `glam…` (like `glamview`) and has its enhanced version starting with `glamp…` (like glampview). 
+
+This enhanced version adds an arrow function with props for conditional styles.
 
 ### glamorous
 
 | Tab trigger        | Content      |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | glama      | `const Component = glamorous.a({})` |
 | glampa      | `const Component = glamorous.a((props) => ({}))` |
 | glamdiv      | `const Component = glamorous.div({})` |
