@@ -5,11 +5,9 @@ Code snippets for [glamorous](https://github.com/paypal/glamorous), [glamorous-n
 ## Installation
 This extension is currently not published on the VSCode Marketplace, so to install it, please clone the repo or download zip to local.
 
-### Windows 
-Clone or unzip into `%USERPROFILE%\.vscode\extensions`
+> **Windows** → `%USERPROFILE%\.vscode\extensions`
 
-### macOS/Linux
-Clone or unzip into `$HOME/.vscode/extensions`
+> **macOS/Linux** → `$HOME/.vscode/extensions`
 
 ## Supported languages (file extensions)
 - [x] JavaScript
